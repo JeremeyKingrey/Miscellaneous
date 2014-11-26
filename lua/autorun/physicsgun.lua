@@ -5,12 +5,6 @@ function CheckULX(ply)
 	local AvailableGroups = {}
 		AvailableGroups["superadmin"] = true -- KEEP THESE LOWERCASE
 		AvailableGroups["admin"] = true 
-		AvailableGroups["council"] = true 
-		AvailableGroups["senioradmin"] = true 
-		AvailableGroups["titanium"] = true 
-		AvailableGroups["gold"] = true 
-		AvailableGroups["silver"] = true 
-		AvailableGroups["bronze"] = true 
 	
 	if AvailableGroups[UG] then
 		return true
